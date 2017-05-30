@@ -1,10 +1,101 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html class="html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="imgs/favicon.png" />
 
-  </head>
-  <body>
-    <div id="root">  </div>
+    <title>App Landing</title>
 
-    <script type="text/javascript" src="./dist/bundle.js">  </script>
-  </body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:100%7COpen+Sans:300,400,400i,600,700,800">
+    <!-- inject:css -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootsnav/css/bootsnav.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/alien-icon/css/style.css">
+    <link rel="stylesheet" href="vendor/owl.carousel2/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="vendor/switchery/switchery.min.css">
+    <link rel="stylesheet" href="vendor/animate.css/animate.min.css">
+    <link rel="stylesheet" href="vendor/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/alien.min.css">
+    <!-- endinject -->
+
+</head>
+<body>
+    <header>
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed white no-background bootsnav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="imgs/logoSnoop-light.png" class="logo logo-display" alt="">
+                        <img src="imgs/logoSnoop.png" class="logo logo-scrolled" alt="">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="" data-out="">
+                      <li>
+                          <a href="termsofuse.html"> Terms Of Use </a>
+                      </li>
+                      <li>
+                          <a href="privacy.html"> Privacy Policy </a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+    <!--banner start-->
+    <section class="ImageBackground ImageBackground--overlay ImageBackground--overlay--gradient js-FullHeight" data-overlay="9">
+        <div class="ImageBackground__holder">
+            <!-- <img src="imgs/iphone-on-hand-and-tea.jpg" alt="..."> -->
+            <img src="imgs/homePic3.png" alt="...">
+        </div>
+        <div class="container u-vCenter">
+            <div class="row text-white">
+                <div class="col-lg-5 col-md-6 col-sm-8 u-MarginTop70 u-md-MarginTop10">
+                    <h1 class="u-FontSize75 u-xs-FontSize50">Video Based Q&A App </h1>
+                    <h2 class="text-white u-xs-FontSize20">Earn money by both asking and answering questions</h2>
+                    <div class="u-MarginTop100 u-xs-MarginTop60">
+                        <a class="btn btn-white btn-white--transparent text-uppercase u-Rounded u-MarginRight10 u-MarginBottom20" href="#">Download App</a>
+                        <a class="btn btn-white text-uppercase u-Rounded u-MarginBottom20" href="#">Watch demo video <i class="Icon Icon-play Icon--24px u-MarginLeft10"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-0 hidden-sm hidden-xs">
+                    <!-- <img class="img-responsive" src="imgs/display-phone.png" alt="..."> -->
+                    <img class="img-responsive" src="imgs/placeit666.png" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--banner end-->
+
+
+    <!-- inject:js -->
+    <script src="vendor/jquery/jquery-1.12.0.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootsnav/js/bootsnav.js"></script>
+    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.countTo/jquery.countTo.min.js"></script>
+    <script src="vendor/owl.carousel2/owl.carousel.min.js"></script>
+    <script src="vendor/jquery.appear/jquery.appear.js"></script>
+    <script src="vendor/parallax.js/parallax.min.js"></script>
+    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendor/imagesloaded/imagesloaded.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/switchery/switchery.min.js"></script>
+    <script src="vendor/swiper/js/swiper.min.js"></script>
+    <script src="js/alien.js"></script>
+
+    <div id = "root"> React Module here. </div>
+    <script src="dist/bundle.js"> </script>
+
+    <!-- endinject -->
+</body>
 </html>
